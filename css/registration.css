@@ -1,0 +1,55 @@
+#registration-h1 {
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+}
+
+.name-block {
+    width: 20%;
+}
+
+#form label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.inputs {
+    width: 80%;
+    height: 50px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    border: 2px solid #EFC000;
+    background-color: #E8E8E8;
+    padding: 10px;
+}
+
+#form button {
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #EFC000;
+    border: 0;
+    color: white;
+    align-self: center;
+    transition: ease 0.25s;
+}
+
+#form button:hover {
+    background-color: #e0b300;
+}
+
+footer {
+    position: fixed; /* Подвал как приклеенный */
+    bottom: 0; /* Фиксация снизу */
+    left: 0; /* К началу слева */
+    right: 0; /* Без отступов справа */
+    height: 50px; /* Задаем высоту */
+}
+

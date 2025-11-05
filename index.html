@@ -6,6 +6,8 @@
     <title>Главная страница</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
     <header>
@@ -20,10 +22,58 @@
         </div>
     </header>
     <main>
-        
+        <div class="container">
+            <div id="intro">
+                <h3>Библиотека AllBooks — это онлайн-платформа, где каждый может читать свои любимые книги бесплатно и в любом уголке мира. Регистрируйтесь на нашем сайте и откройте для себя произведения, которые вас вдохновят.</h3>
+                <a href="#" id="registration-intro">Регистрация</a>
+            </div>
+            <div id="search">
+                <h3>Найди ту книгу, которую так давно хотел прочитать</h3>
+                <form action="" method="get" id="search-area">
+                    <input type="search", placeholder="А. С. Пушкин “Дубровский”" id="search-input">
+                    <button type="submit" id="search-button">Поиск</button>
+                </form>
+            </div>
+            <div id="popular-books-block">
+                <h3>Популярные книги на нашем сайте</h3>
+                <div id="popular-books">
+                    <button><</button>
+                    <a href="#"><img src="img/books/book01.png" alt="Мастер и Ммаргарита"></a>
+                    <a href="#"><img src="img/books/book02.png" alt="Тихий Дон"></a>
+                    <a href="#"><img src="img/books/book03.png" alt="Война и мир"></a>
+                    <a href="#"><img src="img/books/book04.png" alt="Преступление и наказание"></a>
+                    <button>></button>
+                </div>
+            </div>
+            <div id="news-block">
+                <h3>Новости библиотеки</h3>
+                <div id="all-news">
+                    <a href="#">
+                        <img src="img/news/Group 1.png" alt="" srcset="" class="news">
+                    </a>
+                    <a href="#">
+                        <img src="img/news/Group 2.png" alt="" srcset="" class="news">
+                    </a>
+                    <a href="#">
+                        <img src="img/news/Group 4.png" alt="" srcset="" class="news">
+                    </a>
+                    <a href="#">
+                        <img src="img/news/Rectangle 6.png" alt="" srcset="" class="news">
+                    </a>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
-
+        <div class="container">
+            <div id="container-footer">
+                <a href="#"><img src="img/Logo footer.png" alt="AllBooks", title="Главная"></a>
+                <nav id="nav-footer">
+                    <a href="#">Регистрация</a>
+                    <a href="#">Авторизация</a>
+                </nav>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
