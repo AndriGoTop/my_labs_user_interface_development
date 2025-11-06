@@ -39,6 +39,7 @@
     color: white;
     align-self: center;
     transition: ease 0.25s;
+    cursor: pointer;
 }
 
 #form button:hover {

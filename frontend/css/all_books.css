@@ -1,0 +1,22 @@
+main {
+    margin-top: 40px;
+}
+
+#all_books {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 350px;
+    grid-column-gap: 20px;
+    grid-row-gap: 1em;
+    margin: 20px 0 40px 0;
+}
+
+#all_books_h1 {
+    font-weight: 300;
+    font-size: 36px;
+}
+
+#all_books a img {
+    width: 100%;
+    height: 100%;
+}
